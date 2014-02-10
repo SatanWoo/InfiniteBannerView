@@ -172,14 +172,11 @@
 		031704B018A8C35500D665B1 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				0389AC7B18A8F3F20064A029 /* View */,
+				0389AC7A18A8F3EE0064A029 /* Model */,
 				031704B118A8C36300D665B1 /* WUDemoViewController.h */,
 				031704B218A8C36300D665B1 /* WUDemoViewController.m */,
 				031704B318A8C36300D665B1 /* WUDemoViewController.xib */,
-				031704BB18A8C87400D665B1 /* WUBannerView.h */,
-				031704BC18A8C87400D665B1 /* WUBannerView.m */,
-				031704B618A8C5AC00D665B1 /* WUBannerItemView.h */,
-				031704B718A8C5AC00D665B1 /* WUBannerItemView.m */,
-				031704B918A8C66100D665B1 /* WUBannerItemView.xib */,
 			);
 			name = Demo;
 			sourceTree = "<group>";
@@ -194,6 +191,25 @@
 				031704C318A8D08D00D665B1 /* 5.jpg */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		0389AC7A18A8F3EE0064A029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0389AC7B18A8F3F20064A029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				031704BB18A8C87400D665B1 /* WUBannerView.h */,
+				031704BC18A8C87400D665B1 /* WUBannerView.m */,
+				031704B618A8C5AC00D665B1 /* WUBannerItemView.h */,
+				031704B718A8C5AC00D665B1 /* WUBannerItemView.m */,
+				031704B918A8C66100D665B1 /* WUBannerItemView.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,6 +520,7 @@
 				031704AC18A8C30A00D665B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		031704AD18A8C30A00D665B1 /* Build configuration list for PBXNativeTarget "InfiniteBannerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +529,7 @@
 				031704AF18A8C30A00D665B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -42,9 +42,7 @@
 
 - (void)bannerViewDidScroll
 {
-   
     NSInteger page = self.contentOffset.x / CGRectGetWidth(self.bounds);
-    NSLog(@"bannerViewDidScroll and page is %d", page);
     
     if (page == 0) {
         [self setContentOffset:CGPointMake((self.totalPage - 2) * CGRectGetWidth(self.bounds), 0) animated:NO];

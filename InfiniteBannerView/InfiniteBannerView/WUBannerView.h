@@ -12,7 +12,6 @@
 
 + (WUBannerView *)createBannerViewWithArrayOfImages:(NSArray *)images
                                    andArrayOfTitles:(NSArray *)titles;
-//- (void)startScrolling;
 - (void)bannerViewDidScroll;
 
 @end
