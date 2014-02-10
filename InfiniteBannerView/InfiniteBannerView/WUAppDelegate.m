@@ -7,6 +7,7 @@
 //
 
 #import "WUAppDelegate.h"
+#import "WUDemoViewController.h"
 
 @implementation WUAppDelegate
 
@@ -15,6 +16,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = [WUDemoViewController createDemoViewController];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

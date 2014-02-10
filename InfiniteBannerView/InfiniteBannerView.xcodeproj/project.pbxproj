@@ -19,6 +19,16 @@
 		0317049D18A8C30A00D665B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0317048518A8C30A00D665B1 /* UIKit.framework */; };
 		031704A518A8C30A00D665B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 031704A318A8C30A00D665B1 /* InfoPlist.strings */; };
 		031704A718A8C30A00D665B1 /* InfiniteBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 031704A618A8C30A00D665B1 /* InfiniteBannerViewTests.m */; };
+		031704B418A8C36300D665B1 /* WUDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031704B218A8C36300D665B1 /* WUDemoViewController.m */; };
+		031704B518A8C36300D665B1 /* WUDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031704B318A8C36300D665B1 /* WUDemoViewController.xib */; };
+		031704B818A8C5AC00D665B1 /* WUBannerItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 031704B718A8C5AC00D665B1 /* WUBannerItemView.m */; };
+		031704BA18A8C66100D665B1 /* WUBannerItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031704B918A8C66100D665B1 /* WUBannerItemView.xib */; };
+		031704BD18A8C87400D665B1 /* WUBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 031704BC18A8C87400D665B1 /* WUBannerView.m */; };
+		031704C418A8D08D00D665B1 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 031704BF18A8D08D00D665B1 /* 1.jpg */; };
+		031704C518A8D08D00D665B1 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 031704C018A8D08D00D665B1 /* 2.jpg */; };
+		031704C618A8D08D00D665B1 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 031704C118A8D08D00D665B1 /* 3.jpg */; };
+		031704C718A8D08D00D665B1 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 031704C218A8D08D00D665B1 /* 4.jpg */; };
+		031704C818A8D08D00D665B1 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 031704C318A8D08D00D665B1 /* 5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,19 @@
 		031704A218A8C30A00D665B1 /* InfiniteBannerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfiniteBannerViewTests-Info.plist"; sourceTree = "<group>"; };
 		031704A418A8C30A00D665B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		031704A618A8C30A00D665B1 /* InfiniteBannerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteBannerViewTests.m; sourceTree = "<group>"; };
+		031704B118A8C36300D665B1 /* WUDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUDemoViewController.h; sourceTree = "<group>"; };
+		031704B218A8C36300D665B1 /* WUDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUDemoViewController.m; sourceTree = "<group>"; };
+		031704B318A8C36300D665B1 /* WUDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUDemoViewController.xib; sourceTree = "<group>"; };
+		031704B618A8C5AC00D665B1 /* WUBannerItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUBannerItemView.h; sourceTree = "<group>"; };
+		031704B718A8C5AC00D665B1 /* WUBannerItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUBannerItemView.m; sourceTree = "<group>"; };
+		031704B918A8C66100D665B1 /* WUBannerItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUBannerItemView.xib; sourceTree = "<group>"; };
+		031704BB18A8C87400D665B1 /* WUBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUBannerView.h; sourceTree = "<group>"; };
+		031704BC18A8C87400D665B1 /* WUBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUBannerView.m; sourceTree = "<group>"; };
+		031704BF18A8D08D00D665B1 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		031704C018A8D08D00D665B1 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		031704C118A8D08D00D665B1 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		031704C218A8D08D00D665B1 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		031704C318A8D08D00D665B1 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +130,8 @@
 		0317048718A8C30A00D665B1 /* InfiniteBannerView */ = {
 			isa = PBXGroup;
 			children = (
+				031704BE18A8D07E00D665B1 /* Resource */,
+				031704B018A8C35500D665B1 /* Demo */,
 				0317049018A8C30A00D665B1 /* WUAppDelegate.h */,
 				0317049118A8C30A00D665B1 /* WUAppDelegate.m */,
 				0317049318A8C30A00D665B1 /* Images.xcassets */,
@@ -142,6 +167,33 @@
 				031704A318A8C30A00D665B1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		031704B018A8C35500D665B1 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				031704B118A8C36300D665B1 /* WUDemoViewController.h */,
+				031704B218A8C36300D665B1 /* WUDemoViewController.m */,
+				031704B318A8C36300D665B1 /* WUDemoViewController.xib */,
+				031704BB18A8C87400D665B1 /* WUBannerView.h */,
+				031704BC18A8C87400D665B1 /* WUBannerView.m */,
+				031704B618A8C5AC00D665B1 /* WUBannerItemView.h */,
+				031704B718A8C5AC00D665B1 /* WUBannerItemView.m */,
+				031704B918A8C66100D665B1 /* WUBannerItemView.xib */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		031704BE18A8D07E00D665B1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				031704BF18A8D08D00D665B1 /* 1.jpg */,
+				031704C018A8D08D00D665B1 /* 2.jpg */,
+				031704C118A8D08D00D665B1 /* 3.jpg */,
+				031704C218A8D08D00D665B1 /* 4.jpg */,
+				031704C318A8D08D00D665B1 /* 5.jpg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +272,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031704C718A8D08D00D665B1 /* 4.jpg in Resources */,
+				031704C518A8D08D00D665B1 /* 2.jpg in Resources */,
 				0317048C18A8C30A00D665B1 /* InfoPlist.strings in Resources */,
+				031704C818A8D08D00D665B1 /* 5.jpg in Resources */,
+				031704BA18A8C66100D665B1 /* WUBannerItemView.xib in Resources */,
+				031704B518A8C36300D665B1 /* WUDemoViewController.xib in Resources */,
 				0317049418A8C30A00D665B1 /* Images.xcassets in Resources */,
+				031704C618A8D08D00D665B1 /* 3.jpg in Resources */,
+				031704C418A8D08D00D665B1 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0317049218A8C30A00D665B1 /* WUAppDelegate.m in Sources */,
+				031704BD18A8C87400D665B1 /* WUBannerView.m in Sources */,
+				031704B818A8C5AC00D665B1 /* WUBannerItemView.m in Sources */,
+				031704B418A8C36300D665B1 /* WUDemoViewController.m in Sources */,
 				0317048E18A8C30A00D665B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
